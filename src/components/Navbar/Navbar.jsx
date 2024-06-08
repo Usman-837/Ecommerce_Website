@@ -121,7 +121,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   <li key={data.id}>
                     <a
                       href={data.link}
-                      className="inline-block w-full rounded-md p-2 hover:bg-primary/20 "
+                      className="inline-block w-full rounded-md p-2 hover:bg-primary/20"
                     >
                       {data.name}
                     </a>
