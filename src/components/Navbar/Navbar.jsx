@@ -36,7 +36,7 @@ const Menu = [
 const DropdownLinks = [
   {
     id: 1,
-    name: "Trending Products",
+    name: "Trending Product",
     link: "/#",
   },
   {
