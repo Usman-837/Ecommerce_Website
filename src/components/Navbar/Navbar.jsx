@@ -4,32 +4,29 @@ import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import DarkMode from "./DarkMode";
+import { NavLink } from "react-router-dom";
+import Hero from "../Hero/Hero";
 
 const Menu = [
   {
     id: 1,
     name: "Home",
-    link: "/#",
+    link: "#hero",
   },
   {
     id: 2,
+    name: "Top Selling",
+    link: "#topselling",
+  },
+  {
+    id: 3,
     name: "Top Rated",
-    link: "/#services",
+    link: "#toprated",
   },
   {
-    id: 3,
-    name: "Kids Wear",
-    link: "/#",
-  },
-  {
-    id: 3,
-    name: "Mens Wear",
-    link: "/#",
-  },
-  {
-    id: 3,
-    name: "Electronics",
-    link: "/#",
+    id: 4,
+    name: "Women Wear",
+    link: "#womenwear",
   },
 ];
 
@@ -37,17 +34,22 @@ const DropdownLinks = [
   {
     id: 1,
     name: "Trending Product",
-    link: "/#",
+    link: "/trendingproducts",
   },
   {
     id: 2,
-    name: "Best Selling",
-    link: "/#",
+    name: "Kids Wear",
+    link: "/bestselling",
   },
   {
     id: 3,
     name: "Top Rated",
-    link: "/#",
+    link: "/toprated",
+  },
+  {
+    id: 4,
+    name: "Electronics",
+    link: "/electronics",
   },
 ];
 
@@ -59,7 +61,7 @@ const Navbar = ({ handleOrderPopup }) => {
       <div className="bg-primary/40 py-2">
         <div className="container flex justify-between items-center">
           <div>
-            <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
+            <a href="#hero" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10" />
               Shopsy
             </a>

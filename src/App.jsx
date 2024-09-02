@@ -32,6 +32,14 @@ const App = () => {
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
       <BrowserRouter>
         <Navbar handleOrderPopup={handleOrderPopup} />
+        <Hero/>
+        <Products/>
+        <TopProducts/>
+        <Banner/>
+        <Subscribe/>
+        <Products/>
+        <Testimonials/>
+        <Footer/>
         <Routes>
           <Route path="/Hero" element={<Hero />} />
           <Route path="/Products" element={<Products />} />

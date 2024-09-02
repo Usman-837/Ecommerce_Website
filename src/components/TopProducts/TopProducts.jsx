@@ -37,7 +37,7 @@ const ProductsData = [
 
 const TopProducts = () => {
   return (
-    <div>
+    <div id="toprated">
       <div className="container">
         {/* Header Session */}
         <div className="text-left mb-24">
