@@ -4,14 +4,40 @@ import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import DarkMode from "./DarkMode";
-import { NavLink } from "react-router-dom";
-import Hero from "../Hero/Hero";
 
 const Menu = [
   {
     id: 1,
     name: "Home",
     link: "#hero",
+  },
+  {
+    id: 2,
+    name: "Winter Sale",
+    link: "#wintersale",
+  },
+  {
+    id: 3,
+    name: "Get Updates",
+    link: "#getupdates",
+  },
+  {
+    id: 4,
+    name: "Testimonials",
+    link: "#testimonials",
+  },
+  {
+    id: 5,
+    name: "Contact Us",
+    link: "#contactus",
+  },
+];
+
+const DropdownLinks = [
+  {
+    id: 1,
+    name: "Trending Product",
+    link: "/trendingproducts",
   },
   {
     id: 2,
@@ -27,29 +53,6 @@ const Menu = [
     id: 4,
     name: "Women Wear",
     link: "#womenwear",
-  },
-];
-
-const DropdownLinks = [
-  {
-    id: 1,
-    name: "Trending Product",
-    link: "/trendingproducts",
-  },
-  {
-    id: 2,
-    name: "Kids Wear",
-    link: "/bestselling",
-  },
-  {
-    id: 3,
-    name: "Top Rated",
-    link: "/toprated",
-  },
-  {
-    id: 4,
-    name: "Electronics",
-    link: "/electronics",
   },
 ];
 
