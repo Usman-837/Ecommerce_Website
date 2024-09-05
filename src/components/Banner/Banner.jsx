@@ -8,6 +8,7 @@ const Banner = () => {
     return(
         <div id="wintersale" className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
             <div className="container">
+            <h1 data-aos="fade-up" className="text-4xl font-bold text-center py-12">Winter Sale</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
                     {/* Image Section */}
                     <div data-aos="zoom-in">
