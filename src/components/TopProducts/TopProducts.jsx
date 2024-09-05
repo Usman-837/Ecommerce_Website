@@ -44,7 +44,7 @@ const TopProducts = () => {
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Rated Products for you
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">
+          <h1 data-aos="fade-up" className="text-4xl font-bold pb-2">
             Best Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
