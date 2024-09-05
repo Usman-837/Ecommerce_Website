@@ -9,6 +9,7 @@ import Banner from "./components/Banner/Banner";
 import Subscribe from "./components/Subscribe/Subscribe";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
+import Womenproducts from "./components/WomenProducts/Womenproducts";
 import {BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
@@ -37,7 +38,7 @@ const App = () => {
         <TopProducts/>
         <Banner/>
         <Subscribe/>
-        <Products/>
+        <Womenproducts/>
         <Testimonials/>
         <Footer/>
         <Routes>
@@ -46,7 +47,7 @@ const App = () => {
           <Route path="/TopProducts" element={<TopProducts />} />
           <Route path="/Banner" element={<Banner />} />
           <Route path="/Subscribe" element={<Subscribe />} />
-          <Route path="/Products" element={<Products />} />
+          <Route path="/womenproducts" element={<Womenproducts />} />
           <Route path="/Testimonials" element={<Testimonials />} />
           <Route path="/Footer" element={<Footer />} />
         </Routes>
